@@ -150,6 +150,13 @@ footer{
     transform: scale(2);
 }
 
+.foot-ic i{
+    color: rgb(108, 15, 207);
+}
+.foot-ic i:visited{
+    color: rgb(108, 15, 207);
+}
+
 .foot-ic:active i {
     color: black;
 }
