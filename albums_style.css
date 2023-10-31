@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body{
+    background: black;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+}
+
+
+.box{
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.box img{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+@media(max-width:485px){
+    footer{
+        margin-top: 32rem;
+    }
+} 
+

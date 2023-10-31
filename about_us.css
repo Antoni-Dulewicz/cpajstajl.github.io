@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body{
+    background: black;
+    color: white;
+    font-size: 32px;
+    line-height: 200%;
+}
+
+.dropdown_menu{
+    line-height: 100%;
+}
+section{
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 0 5rem;
+}
+
+.description{
+    padding-top: 1.5rem;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    
+}
+
+.up{
+    padding-top: 10rem;
+}
+.up .description{
+    padding-top: 0;
+}
+.up .photo{
+    padding-top: 1rem;
+}
+.a_list{
+    padding-top: 2rem;
+}
+
+.middle .description{
+    padding-top: 1rem;
+}
+
+.bottom .description{
+    padding-top: 4rem;
+}
+
+.a_list{
+    margin-bottom: 8rem;
+}
+.a_list div{
+    display: flex;
+}
+
+.a_list div ol{
+    line-height: 200%;
+}
+
+.a_list div ol li{
+    margin: 2rem 0;
+}
+
+.a_list div ol li a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.a_list div ol li a:hover{
+    color: rgb(93, 15, 131);;
+}
+
+
+.list_el{
+    display: flex;
+    gap: 2rem;
+}
+
+.list_el img{
+    border-radius: 5px;
+}
+
+@media(max-width: 1300px){
+    section{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+body{
+    background: black;
+}
+section{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+}
+.img-slider{
+    position: relative;
+    width: 700px;
+    height: 505px;
+    margin: 10px;
+}
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    -webkit-clip-path: circle(0.7% at 0 52%);
+    clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active{
+    -webkit-clip-path: circle(99.7% at 0 50%);
+    clip-path: circle(150% at 0 50%);
+    transition: 1s;
+    transition-property: clip-path;
+    
+
+}
+
+.img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn{
+    background: rgb(255, 255, 255);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-slider .navigation .btn.active{
+    background: rgb(108, 15, 207);
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+@media(max-width: 750px){
+    .img-slider{
+        width: 500px;
+        height: 361px;
+    }
+    .img-slider .navigation{
+        bottom: 10px;
+        
+    }
+    .img-slider .navigation .btn{
+        width: 10px;
+        height: 10px;
+        margin: 8px;
+    }
+
+    
+}
+
+@media(max-width: 530px){
+    .img-slider{
+        width: 300px;
+        height: 216px;
+    }
+    .img-slider .navigation{
+        bottom: 5px;
+        
+    }
+    .img-slider .navigation .btn{
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+    }
+    
+}
+
+@media(max-width: 350px){
+    .img-slider{
+        width: 200px;
+        height: 144px;
+    }
+    .img-slider .navigation{
+        bottom: 2px;
+        
+    }
+    .img-slider .navigation .btn{
+        width: 6px;
+        height: 6px;
+        margin: 4px;
+    }
+    
+}
+
+
+

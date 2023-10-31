@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+body{
+    background: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    letter-spacing: 2px;
+
+}
+.container{
+    position: relative;
+    width: 450px;
+    height: auto;
+    /* background: white; */
+    border-radius: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+form #email_error,#pass_error{
+    font-size: 15px;
+    margin-bottom: 2rem;
+    color: rgb(87, 7, 7);
+    background-color: rgb(69, 5, 5,0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: none;
+
+}
+input{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: black;
+    border-bottom: 2px solid gray;
+    color: white;
+}
+
+.s_button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 1.5rem;
+    padding: 0 2rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}

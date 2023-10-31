@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.logo img{
+    border-radius: 8px;
+}
+
+.head_item{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.description{
+    margin-right: 10rem;
+    font-size: 30px;
+}
+
+.description p{
+    background-color: papayawhip;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+section{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+
+ol{
+    background-color: papayawhip;
+    border-radius: 8px;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    font-size: 30px;
+}
+
+.video{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+a{
+    color: blueviolet;
+    font-size: 30px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+@media(max-width: 1227px){
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo{
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width: 900px){
+    .description{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .tracklist{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .video{
+        width: 330px;
+    }
+    section{
+        gap: 3rem;
+    }
+
+}
