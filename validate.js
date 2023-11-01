@@ -8,7 +8,7 @@ email.addEventListener('input', email_Verify);
 password.addEventListener('input', pass_Verify);
 
 function validated(){
-    if (email.value.length < 8){
+    if (email.value.length < 9){
         email_error.style.display = "block";
         email.focus();
         return false;
@@ -26,11 +26,13 @@ function validated(){
 function email_Verify(){
     if (email.value.length >= 8){
         email_error.style.display = "none";
+        return true;
     }
 }
 
 function pass_Verify(){
     if (password.value.length >= 5){
         pass_error.style.display = "none";
+        return true;
     }
 }
