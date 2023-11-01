@@ -171,7 +171,7 @@ footer{
     color: black;
 }
  
-@media(max-width: 750px){
+/* @media(max-width: 750px){
     footer{
         padding-top: 120px;
     }
@@ -190,4 +190,4 @@ footer{
     footer{
         padding-top: 120px;
     }
-}
+} */
