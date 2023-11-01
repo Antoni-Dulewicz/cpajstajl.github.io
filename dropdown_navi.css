@@ -66,7 +66,7 @@ nav .menu_button{
 
 .dropdown_menu.open{
     border: 3px solid white;
-    height: 160px;
+    height: 165px;
     z-index: 2;
 }
 
@@ -80,11 +80,12 @@ nav .menu_button{
     border: 3px solid black;
 }
 
-.dropdown_menu li:first-child{
+
+.up_drop li{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.dropdown_menu li:last-child{
+.bottom_drop li{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -93,18 +94,19 @@ nav .menu_button{
     display: block;
 }
 
-.dropdown_menu li a,
-.dropdown_menu li a:visited{
+
+
+.dropdown_menu a li,
+.dropdown_menu a li:visited{
     color: black;
 }
 
-.dropdown_menu li a:hover,
-.dropdown_menu li a:focus{
+.dropdown_menu li:hover,
+.dropdown_menu li:focus{
     background: black;
     color: white;
     cursor: pointer;
 }
-
 
 
 @media(max-width: 992px){

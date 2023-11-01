@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="about_us.css" />
     <link rel="stylesheet" href="boxicons.min.css" />
     <link rel="stylesheet" href="dropdown_navi.css" />
-    <script src="drop_navi.js" async></script>
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -34,6 +33,7 @@
       src="https://fontawesome.com/c4244e24a8.js"
       crossorigin="anonymous"
     ></script>
+    <script src="drop_navi.js" async></script>
   </head>
   <body>
     <header>
@@ -54,9 +54,15 @@
 
       <div class="dropdown_menu">
         <ul>
-          <li><a href="my_site.html">Home</a></li>
-          <li><a href="albums.html">Albums</a></li>
-          <li><a href="about_us.html">About Us </a></li>
+          <a href="my_site.html" class="drop_element up_drop">
+            <li>Home</li>
+          </a>
+          <a href="albums.html" class="drop_element middle_drop">
+            <li>Albums</li>
+          </a>
+          <a href="about_us.html" class="drop_element bottom_drop">
+            <li>About Us</li>
+          </a>
         </ul>
       </div>
     </header>
