@@ -53,9 +53,6 @@ section{
     padding-top: 4rem;
 }
 
-.a_list{
-    margin-bottom: 8rem;
-}
 .a_list div{
     display: flex;
 }
@@ -100,8 +97,27 @@ section{
     font-size: 14px;
 }
 
-.container{
+.form{
+    display: block;
+    justify-content: center;
     margin-bottom: 5rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 @media(max-width: 1300px){

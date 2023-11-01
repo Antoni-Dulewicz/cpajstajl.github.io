@@ -39,6 +39,7 @@ section{
     color: white;
 }
 
+
 @media(max-width:485px){
     footer{
         margin-top: 32rem;

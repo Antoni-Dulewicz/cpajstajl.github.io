@@ -36,7 +36,7 @@ function validateEmail(){
 }
 
 function validateForm(){
-    if(!validateName() || !validateForm()){
+    if(!validateName() || !validateEmail()){
         submitError.style.display = 'block'
         submitError.innerHTML = 'Please fix error';
         setTimeout(function(){submitError.style.display = 'none'},2000)
