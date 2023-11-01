@@ -52,3 +52,10 @@ section{
     }
 } 
 
+@media(max-height:640px){
+    .box img{
+        border-radius: 8px;
+        width: 150px;
+        height: 150px;
+    }
+} 
