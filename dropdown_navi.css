@@ -128,6 +128,16 @@ nav .menu_button{
 
 }
 
+@media(max-width: 380px){
+    .logo{
+        width: 150px;
+    }
+    header{
+        padding: 0 3rem;
+    }
+
+}
+
 footer{
     padding-left: 20%;
     padding-right: 20%;

@@ -66,6 +66,12 @@ section{
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 
+@media(max-width: 992px){
+    section{
+        padding-bottom: 3rem;
+    }
+}
+
 @media(max-width: 750px){
     .img-slider{
         width: 500px;
@@ -81,6 +87,9 @@ section{
         margin: 8px;
     }
 
+    section{
+        padding-bottom: 0;
+    }
     
 }
 
