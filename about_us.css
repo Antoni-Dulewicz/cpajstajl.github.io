@@ -125,3 +125,32 @@ button{
         flex-wrap: wrap;
     }
 }
+
+@media(max-width: 500px){
+    .a_list{
+        margin: 0 1rem;
+    }    
+    .photo img{
+        width: 300px;
+    }
+    section{
+        margin: 0 2rem;
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 380px){
+    .a_list{
+        margin-right: 0;
+    }    
+    .list_el{
+        gap: 1rem;
+    }
+    .list_el img{
+        width: 80px;
+    }
+    .list_el a{
+        font-size: 22px;
+    }
+    
+}
