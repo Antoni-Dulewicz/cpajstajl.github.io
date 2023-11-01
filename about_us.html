@@ -29,6 +29,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <script
+      src="https://fontawesome.com/c4244e24a8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -134,6 +139,39 @@
         </ol>
       </div>
     </section>
+
+    <section>
+      <div class="container">
+        <h1>JOIN THE FANCLUB</h1>
+        <form>
+          <div class="input_group">
+            <label>Full Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="contact_name"
+              onkeyup="validateName()"
+            />
+            <span id="name_error"></span>
+          </div>
+          <div class="input_group">
+            <label>Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="contact_email"
+              onkeyup="validateEmail()"
+            />
+            <span id="email_error"></span>
+          </div>
+
+          <button onclick="return validateForm()">Submit</button>
+          <span id="submit_error"></span>
+        </form>
+      </div>
+    </section>
+
+    <script src="validate.js"></script>
 
     <footer>
       <div>
