@@ -54,6 +54,10 @@ ol{
     font-size: 30px;
 }
 
+ol li{
+    border-bottom: 2px dotted gray;
+}
+
 .video{
     margin-bottom: 2rem;
     display: flex;
