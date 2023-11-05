@@ -130,7 +130,17 @@ button{
     }
 }
 
+@media(max-width: 992px){
+    body{
+        font-size: 26px;
+    }
+}
+
+
 @media(max-width: 500px){
+    body{
+        font-size: 22px;
+    }
     .a_list{
         margin: 0 1rem;
     }    
