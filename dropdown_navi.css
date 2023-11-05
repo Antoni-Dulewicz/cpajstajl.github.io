@@ -64,7 +64,7 @@ nav .menu_button{
 
 .dropdown_menu.open{
     border: 3px solid white;
-    height: 165px;
+    height: 166px;
     z-index: 2;
 }
 

@@ -18,7 +18,6 @@ body{
     border: 3px solid white;
     height: 190px;
     z-index: 2;
-    line-height: 82%;
 }
 
 
@@ -124,6 +123,10 @@ button{
     justify-content: center;
 }
 
+.dropdown_menu.open{
+    line-height: 100%;
+}
+
 @media(max-width: 1300px){
     section{
         flex-wrap: wrap;
@@ -151,6 +154,9 @@ button{
         margin: 0 2rem;
         gap: 2rem;
     }
+    .dropdown_menu.open{
+        font-size: 26.5px;
+    }
 }
 
 @media(max-width: 380px){
@@ -165,6 +171,9 @@ button{
     }
     .list_el a{
         font-size: 22px;
+    }
+    .dropdown_menu.open{
+        font-size: 26.5px;
     }
     
 }
